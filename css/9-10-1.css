@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    margin: 150px;
+    background-color: #FF6464;
+}
+
+.submenu1 li{
+    list-style: none;
+}
+
+.submenu1 {
+    display: none;
+    position: absolute;
+    background-color: #FF6464;
+}
+
+.menu_item {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}
+
+.menu_link{
+    display: block;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.submenu1_item {
+
+    display: block;
+    width: 100px;
+    height: 20px;
+    border-bottom: 1px solid #FF6464;
+    color: white;
+
+}
+
+.over{
+    background-color: #E14B4B;
+    width: 100px;
+    height: 100px;
+}
